@@ -38,9 +38,9 @@ module.exports = {
 
   ANTIFAKE : process.env.ANTIFAKE || '',
 
-  FORWARD: process.env.FORWARD || 'ARSLAN MD BOT;~Arslan;Copyright by Arslan;https://i.ibb.co/932MfHG/Screenshot-20231108-004517.jpg;audio;audio/mp4;https://github.com/Arsalan010officiall/ARSLAN-MD-BOT',
+  FORWARD: process.env.FORWARD || 'ARSLAN MD BOT;~Arslan;Copyright by Arslan;https://i.ibb.co/ck4V2L0/1699391288528.jpg;audio;audio/mp4;https://github.com/Arsalan010officiall/ARSLAN-MD-BOT',
   
-  BOT_INFO: process.env.BOT_INFO || 'ARSLAN MD BOT;~Arslan;Copyright by Arslan MD;https://i.ibb.co/932MfHG/Screenshot-20231108-004517.jpg',
+  BOT_INFO: process.env.BOT_INFO || 'ARSLAN MD BOT;~Arslan;Copyright by Arslan MD;https://i.ibb.co/ck4V2L0/1699391288528.jpg',
 
   WELCOME_MSG: process.env.WELCOME_MSG || "Hi @user Welcome to @gname",
 
