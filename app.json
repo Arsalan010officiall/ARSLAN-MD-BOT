@@ -61,12 +61,12 @@
        "BOT_INFO": {
             "description": "Your bot menu info changing ;",
             "required": true,
-            "value":"ARSLAN MD BOT;~ARSLAN;Copyright by Arslan MD;https://i.ibb.co/932MfHG/Screenshot-20231108-004517.jpg"
+            "value":"ARSLAN MD BOT;~ARSLAN;Copyright by Arslan MD;https://i.ibb.co/ck4V2L0/1699391288528.jpg"
         },
         "AUDIO_DATA": {
             "description": "Name of audio (take) name;name;image(url)",
             "required": true,
-            "value":"ARSLAN MD;Arslan;https://i.ibb.co/932MfHG/Screenshot-20231108-004517.jpg"
+            "value":"ARSLAN MD;Arslan;https://i.ibb.co/ck4V2L0/1699391288528.jpg"
         },
         "MODE": {
             "description": "Private or public",
