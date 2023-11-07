@@ -28,6 +28,7 @@
 > <b><s1>.ғɪʀsᴛ sᴄᴀɴ ǫʀ ᴄᴏᴅᴇ</b></s1> 
 
 > <b><s1>2.ɪғ ʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴀ ᴀᴄᴄᴏᴜɴᴛ ɪɴ ʜᴇʀᴏᴋᴜ. ᴄʀᴇᴀᴛᴇ ᴀ ᴀᴄᴄᴏᴜɴᴛ. </b></s1> 
+
 <a href='https://signup.heroku.com/' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
 
 ><b><s1>3.ɴᴏᴡ ᴅᴇᴘʟᴏʏ ᴏɴ ᴅᴇᴘʟᴏʏ </b></s1>
