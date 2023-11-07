@@ -14,7 +14,7 @@ module.exports = {
 
   LOGS: toBool(process.env.LOGS) || true,
 
-  ALIVE_DATA : process.env.ALIVE_DATA || "_iam alive now &sender_",
+  ALIVE_DATA : process.env.ALIVE_DATA || "_iam ARSLAN-MD-BOT and iam alive now &sender_",
 
   DATABASE: DATABASE_URL === "./lib/database.db" ? new Sequelize({ dialect: "sqlite", storage: DATABASE_URL, logging: false }) : new Sequelize(DATABASE_URL, {dialect: "postgres", ssl: true, protocol: "postgres", dialectOptions: { native: true, ssl: { require: true, rejectUnauthorized: false },}, logging: false }),
 
@@ -38,21 +38,21 @@ module.exports = {
 
   ANTIFAKE : process.env.ANTIFAKE || '',
 
-  FORWARD: process.env.FORWARD || '𝐀𝐁𝐔 𝐌𝐃 𝐁𝐎𝐓;~Jasil;Copyright by Abu;https://i.ibb.co/nc4MKWb/ae8d07d7943e.jpg;audio;audio/mp4;https://github.com/Afx-Abu/Abu-MD',
+  FORWARD: process.env.FORWARD || 'ARSLAN 𝐌𝐃 𝐁𝐎𝐓;~Jasil;Copyright by Abu;https://i.ibb.co/nc4MKWb/ae8d07d7943e.jpg;audio;audio/mp4;https://github.com/Afx-Abu/Abu-MD',
   
-  BOT_INFO: process.env.BOT_INFO || '𝐀𝐁𝐔 𝐌𝐃 𝐁𝐎𝐓;~Jasil;Copyright by Abu MD;https://i.ibb.co/nc4MKWb/ae8d07d7943e.jpg',
+  BOT_INFO: process.env.BOT_INFO || '𝐀RSLAN 𝐌𝐃 𝐁𝐎𝐓;~Jasil;Copyright by Abu MD;https://i.ibb.co/nc4MKWb/ae8d07d7943e.jpg',
 
   WELCOME_MSG: process.env.WELCOME_MSG || "Hi @user Welcome to @gname",
 
   GOODBYE_MSG: process.env.GOODBYE_MSG || "Hi @user It was Nice Seeing you",
 
-  STICKER_DATA: process.env.STICKER_DATA || "Abu",
+  STICKER_DATA: process.env.STICKER_DATA || "ARSLAN",
 
   ACR_A: "ff489a0160188cf5f0750eaf486eee74",
 
   ACR_S: "ytu3AdkCu7fkRVuENhXxs9jsOW4YJtDXimAWMpJp",
 
-  SUDO: process.env.SUDO || "917025994178",
+  SUDO: process.env.SUDO || "923237045919",
 
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || " ",
 
