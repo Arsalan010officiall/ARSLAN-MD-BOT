@@ -1,15 +1,15 @@
 {
-   "name": "Abu-MD",
+   "name": "ARSLAN-MD-BOT",
    "version": "2.0.1",
-   "description": "Abu-MD - Simple whatsapp Bot",
+   "description": "ARSLAN-MD-BOT - Simple whatsapp Bot",
    "main": "./index.js",
    "scripts": {
     "start": "supervisor -s index.js"
    },
-   "author": "Afx-Abu",
+   "author": "Arsalan010officiall",
    "license": "ISC",
    "dependencies": {
-      "@whiskeysockets/baileys": "git+https://github.com/Afx-Abu/baileys.ml",
+      "@whiskeysockets/baileys": "git+https://github.com/Arsalan010officiall/Baileys.ml",
       "@adiwajshing/keyed-db": "^0.2.4",
       "@neeraj-x0/textpro": "^1.0.3",
       "@hapi/boom": "10.0.0",
