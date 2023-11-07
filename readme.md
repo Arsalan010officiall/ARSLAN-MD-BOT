@@ -3,15 +3,25 @@
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=F710B1&center=true&width=910&height=100&lines=I'M+ARSLAN-MD-BOT;Multi+Device+Whatsapp+Bot;Coded+By+Arslan_Modz" alt="Typing SVG" /></a>
 
   
-  
+
 <p align="center">  
-  <a href="https://mybeluga.vercel.app/">
-    <img alt="X-2.0" height="300" src="[https://i.ibb.co/ck4V2L0/1699391288528.jpg]">
-    <h1 align="center">ARSLAN-MD-BOT</h1>
+  <a href="https://youtu.be/WcA7GZuaN0A">
+    <img alt="Guru" height="300" src="https://i.ibb.co/ck4V2L0/1699391288528.jpg">
+    <h1 align="center">ARSLAN-MD-BOT 2.O</h1>
   </a>
 </p>
+<p align="center">
+<a href="https://github.com/Arsalan010officiall"><img title="Author" src="https://img.shields.io/badge/ARSLAN-MD-BOT-black?style=for-the-badge&logo=telegram"></a>
+<p/>
+<p align="center">
+<a href="https://github.com/Arsalan010officiall?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/Arsalan010officiall?label=Followers&style=social"></a>
+<a href="https://github.com/Arsalan010officiall/ARSLAN-MD-BOT/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Arsalan010officiall/ARSLAN-MD-BOT?&style=social"></a>
+<a href="https://github.com/Arsalan010officiall/ARSLAN-MD-BOT/network/members"><img title="Fork" src="https://img.shields.io/github/forks/Arsalan010officiall/ARSLAN-MD-BOT?style=social"></a>
+<a href="https://github.com/Arsalan010officall/ARSLAN-MD-BOT/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Arsalan010officiall/ARSLAN-MD-BOT?label=Watching&style=social"></a>
+</p>
 
-
+####  
+GURU-BOT- Simple Multi Device whatsapp bot.
 
 ***1.ᴄʟɪᴄᴋ [ғᴏʀᴋ](https://github.com/Arsalan010officiall/ARSLAN-MD-BOT/fork)***
  
