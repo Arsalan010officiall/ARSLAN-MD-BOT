@@ -35,7 +35,7 @@
 ><b><s1>3.ɴᴏᴡ ᴅᴇᴘʟᴏʏ ᴏɴ ᴅᴇᴘʟᴏʏ </b></s1>
 <a href='https://dashboard.heroku.com/new?button-url=https://github.com/Arsalan010officiall/ARSLAN-MD-BOT&template=https://github.com/Arsalan010officiall/ARSLAN-MD-BOT.git' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
 
-[![BOT WHATSAPP](https://img.shields.io/badge/WhatsApp%20BOT-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)(https://chat.whatsapp.com/DMbHJwk6Ez6KtaKjhqKkGk)
+[![BOT WHATSAPP](https://img.shields.io/badge/WhatsApp%20BOT-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/DMbHJwk6Ez6KtaKjhqKkGk) 
 ---------
 
 ###  about this bot
