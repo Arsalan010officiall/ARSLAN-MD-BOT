@@ -1,4 +1,4 @@
-## ```𝑨RSLAN-𝑴𝑫-BOT```
+## ```ARSLAN-MD-BOT```
 
 ***1.ᴄʟɪᴄᴋ [ғᴏʀᴋ](https://github.com/Arsalan010officiall/ARSLAN-MD-BOT/fork)***
  
