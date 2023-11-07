@@ -9,10 +9,7 @@
     <img alt="Guru" height="300" src="https://i.ibb.co/ck4V2L0/1699391288528.jpg">
     <h1 align="center">ARSLAN-MD-BOT 2.O</h1>
   </a>
-</p>
-<p align="center">
-<a href="https://github.com/Arsalan010officiall"><img title="Author" src="https://img.shields.io/badge/ARSLAN-MD-BOT-black?style=for-the-badge&logo=telegram"></a>
-<p/>
+
 <p align="center">
 <a href="https://github.com/Arsalan010officiall?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/Arsalan010officiall?label=Followers&style=social"></a>
 <a href="https://github.com/Arsalan010officiall/ARSLAN-MD-BOT/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/Arsalan010officiall/ARSLAN-MD-BOT?&style=social"></a>
@@ -21,7 +18,8 @@
 </p>
 
 ####  
-GURU-BOT- Simple Multi Device whatsapp bot.
+ARSLAN-MD-BOT- Simple Multi Device whatsapp bot.
+
 
 ***1.ᴄʟɪᴄᴋ [ғᴏʀᴋ](https://github.com/Arsalan010officiall/ARSLAN-MD-BOT/fork)***
  
