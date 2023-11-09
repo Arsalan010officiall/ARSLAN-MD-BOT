@@ -8,7 +8,7 @@ const {
 
   const ffmpeg = require('fluent-ffmpeg');
 
-  const {jslbuffer} = require('abu-bot');
+  const {jslbuffer} = require('arslan-bot');
 
   const {
 
@@ -16,7 +16,7 @@ const {
 
       trimVideo
 
-  } = require('abu-bot');
+  } = require('arslan-bot');
 
 const config = require("../config");
 
