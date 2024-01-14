@@ -1,31 +1,18 @@
 const {
        Module,
        isPublic,
-       sendTts,
-       getAitts
+       sendUrl
 } = require("../lib/");
-
 
 Module(
         {
          
-        pattern: "tts?(.*)",
+        pattern: "url?(.*)",
         fromMe: isPublic,
-        desc: "Its converte your text to voice",
+        desc: "its convert your image/mp3/video/sticker to url",
         type: "converter",
 },
 		async (message, match) => {			
-         await sendTts(message, match);
-})
+		await sendUrl(message, match);
 
-Module(
-        {
-         
-        pattern: "aitts?(.*)",
-        fromMe: isPublic,
-        desc: "Its converte your text to aivoice",
-        type: "ai",
-},
-		async (message, match) => {			
-        await getAitts(message, match);
 })
