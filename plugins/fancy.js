@@ -1,4 +1,10 @@
-const { Module, styletext, listall, tiny, isPublic } = require("../lib/");
+const {
+    Module, 
+    styletext, 
+    listall, 
+    tiny, 
+    isPublic
+} = require("../lib/");
 const axios = require("axios");
 const { Image } = require("node-webpmux");
 
@@ -32,7 +38,7 @@ Module(
     type: "converter",
   },
   async (message, match) => {
-    if (!message.reply_message || !message.reply_message.text) return await message.reply('Please quote any users message.');
+    if (!message.reply_message || !message.reply_message.text) return await message.reply('_Please quote any users message._');
       let pfp;
             try {
                 pfp = await message.client.profilePictureUrl(message.reply_message.participant, "image");
@@ -70,6 +76,6 @@ Module(
             };
             let res = await axios.post("https://bot.lyo.su/quote/generate", body);
             let img = Buffer.alloc(res.data.result.image.length, res.data.result.image, "base64");
-            return message.sendMessage(img,{packname:'Abu-MD',author:'Quotely',quoted: message},"sticker")
+            return message.sendMessage(img,{packname:'©',author:'Quotely',quoted: message},"sticker")
   }
 );
