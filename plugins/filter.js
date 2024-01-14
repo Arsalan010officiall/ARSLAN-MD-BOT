@@ -16,16 +16,16 @@ Module(
     match = match.match(/[\'\"](.*?)[\'\"]/gms)
     if (!match) {
       const filters = await getFilter(message.jid)
-      if (!filters) return await message.reply(`_Not set any filter_\n*Example filter 'hi' 'hello'*`)
+      if (!filters) return await message.reply(`_Not set any filter_`)
       let msg = ''
       filters.map(({ pattern }) => { msg += `=> ${pattern} \n` })
-      return await message.send(msg.trim())
+      return await message.reply(msg.trim())
     } else {
       if (match.length < 2) {
-      return await message.send(`Example filter 'hi' 'hello'`)
+      return await message.reply(`_Example filter 'hi' 'hello_'`)
     }
     await setFilter(message.jid, match[0].replace(/['"]+/g, ''), match[1].replace(/['"]+/g, ''), match[0][0] === "'" ? true : false)
-    await message.send(`_${match[0].replace(/['"]+/g, '')}_ added to filters.`)
+    await message.reply(`_${match[0].replace(/['"]+/g, '')} added to filters_`)
     }
   }
 );
@@ -38,17 +38,22 @@ Module(
     type: "group",
   },
   async (message, match) => {
-    if (!match) return await message.send(`*Example : .stop hi*`)
+    if (!match) return await message.reply(`_Example : .stop hi_`)
     const isDel = await deleteFilter(message.jid, match)
     if (!isDel) return await message.reply(`_${match} not found in filters_`)
     return await message.repy(`_${match} deleted._`)
   }
 );
 
-Module(
-  {
-    on: "text",
-    fromMe: false,
+Module({pattern:'filters', 
+
+         on: "text",
+
+         fromMe: true,
+
+         desc :'sending filter message',
+
+         type: "group"
   },
   async (message, match) => {
     const filters = await getFilter(message.jid)
