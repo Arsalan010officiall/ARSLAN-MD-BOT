@@ -1,26 +1,24 @@
-const { Module, isPublic, sendMenu, aliveMessage, sendList }  = require("../lib");
-
-Module(
-       
-       {
-
-        pattern: "alive ?(.*)",
-        fromMe: isPublic,
-        desc: "does bot work?",
-        type: "info"
-        },
+const { 
+         Module,
+         isPublic, 
+         sendMenu,
+         aliveMessage, 
+         sendList        
+}  = require("../lib");
+ 
+Module({ 
+           pattern: "alive ?(.*)",
+           fromMe: isPublic,
+           desc: "does bot work?",
+           type: "info"
+           },
 
   async (message, match) => {
     await aliveMessage(message, match);
 
-  }
+  });
 
-);
-
-Module(
-
-		{
-
+Module({
             pattern: "menu?(.*)",
             fromMe: isPublic,
             desc: "show your menu items",
@@ -31,15 +29,12 @@ Module(
         return await sendMenu(message);
 })
 
-Module
-       (
-       {
-
-       pattern: "list?(.*)",
-       fromMe: isPublic,
-       desc: "show your list items",
-       type: "info",
-       },
+Module({
+          pattern: "list?(.*)",
+          fromMe: isPublic,
+          desc: "show your list items",
+          type: "info",
+          },
 
 		async (message, match) => {			
 		return await sendList(message);
