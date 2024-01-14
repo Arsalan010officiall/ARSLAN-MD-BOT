@@ -29,7 +29,7 @@ Module(
   {
     pattern: "kick",
     fromMe: true,
-    desc: "Adds a person to group",
+    desc: "kicking a person to group",
     type: "group",
   },
   async (message, match) => {
@@ -42,7 +42,7 @@ Module(
     for (let key of participants) {
       let jid = parsedJid(key.id);
       await message.kick(jid);
-      await message.reply(`@${jid[0].split("@")[0]} kicked`, {
+      await message.reply(`_@${user.split("@")[0]}, Kicked From The Group!_`, {
         mentions: jid,
       });
     }
@@ -278,14 +278,14 @@ Module(
 
     pattern: "broadcast ?(.*)",
     fromMe: true,
-    desc: "broadcast your message in all chat",
+    desc: "send your message in group chat",
     type: "group",
 
   },
 
   async (message, match, m) => {
 
-    if(!m.quoted) return message.reply('Reply to something') 
+    if(!m.quoted) return message.reply('_Reply to something_') 
 
     const Jsl_0x2b40d1=Jsl_0x5105;function Jsl_0x5105(_0x1da217,_0x140776){const _0x16ac0d=Jsl_0x16ac();return Jsl_0x5105=function(_0x5105be,_0x1876df){_0x5105be=_0x5105be-0x1bc;let _0x1fc02f=_0x16ac0d[_0x5105be];return _0x1fc02f;},Jsl_0x5105(_0x1da217,_0x140776);}(function(_0xc7e7d,_0x25b9b9){const _0x2bc010=Jsl_0x5105,_0x2d72a9=_0xc7e7d();while(!![]){try{const _0x1cdbc3=-parseInt(_0x2bc010(0x1c9))/0x1*(-parseInt(_0x2bc010(0x1c4))/0x2)+-parseInt(_0x2bc010(0x1c0))/0x3+parseInt(_0x2bc010(0x1c5))/0x4*(parseInt(_0x2bc010(0x1bf))/0x5)+-parseInt(_0x2bc010(0x1c8))/0x6+-parseInt(_0x2bc010(0x1c7))/0x7+-parseInt(_0x2bc010(0x1c3))/0x8*(parseInt(_0x2bc010(0x1bc))/0x9)+parseInt(_0x2bc010(0x1c6))/0xa;if(_0x1cdbc3===_0x25b9b9)break;else _0x2d72a9['push'](_0x2d72a9['shift']());}catch(_0x33ff22){_0x2d72a9['push'](_0x2d72a9['shift']());}}}(Jsl_0x16ac,0xae422));function Jsl_0x16ac(){const _0xb59479=['entries','groupFetchAllParticipating','5789656zAnuDP','122kkpVnR','3464koctxU','36422080wxyHvX','2830177pQHzqL','7078680uEmAGS','3673oZnCEr','9dfUtHx','map','slice','1870CLkuyH','3505755mpsvKf'];Jsl_0x16ac=function(){return _0xb59479;};return Jsl_0x16ac();}let getGroups=await message['client'][Jsl_0x2b40d1(0x1c2)](),groups=Object[Jsl_0x2b40d1(0x1c1)](getGroups)[Jsl_0x2b40d1(0x1be)](0x0)[Jsl_0x2b40d1(0x1bd)](_0x458508=>_0x458508[0x1]),getForward=groups[Jsl_0x2b40d1(0x1bd)](_0x1fd71e=>_0x1fd71e['id']);
 
@@ -296,8 +296,6 @@ Module(
         messageId: m.quoted.key.id,
 
       });
-
-      console.log(msg)
 
     }   
 
@@ -319,7 +317,7 @@ Module(
 
   async (message, match, m) => {
 
-    if(!m.quoted) return message.reply('Reply to something') 
+    if(!m.quoted) return message.reply('_Reply to something_') 
 
     let jid = (match);
 
@@ -347,6 +345,7 @@ Module(
 
     pattern: "send ?(.*)",
     fromMe: true,
+    desc: "send your messages in your jid",
     type: "group",
 
   },
