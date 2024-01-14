@@ -10,7 +10,6 @@ const fs = require("fs");
 const got = require("got");
 const axios = require("axios");
 const { format } = require("util");
-var handler = Config.HANDLERS !== '^'?Config.HANDLERS.split("")[0]:""
 
 Module(
   {
@@ -21,7 +20,7 @@ Module(
   },
   async (message, match) => {
     match = match || message.reply_message.text
-    if (!match && match !== "list") return await message.reply("_Example :_\nplugin url\nplugin list")
+    if (!match && match !== "list") return await message.reply("_Example : plugin url or plugin list_")
     if (match == "list") {
     const plugins = await getPlugin();
     if (!plugins) return await message.reply("_Plugins not installed_");
@@ -86,19 +85,12 @@ Module(
     if (!match) return await message.reply("_Example :_\nremove emoji\n_remove all_")
     if (match == "all") { 
       await delPlugin()
-      return await message.send("_All plugins deleted Successfully_");
+      return await message.reply("_All plugins deleted Successfully_");
     }
     const isDeleted = await delPlugin(match)
     if (!isDeleted) return await message.reply(`_Plugin ${match} not found_`);
     delete require.cache[require.resolve("./" + match + ".js")]
     fs.unlinkSync("./plugins/" + match + ".js");
     await message.reply(`*_${match} Plugin deleted successfully_*`);
-    const buttons = [{buttonId: handler+'restart', buttonText: {displayText: 'Restart'}, type: 1}]
-          
-          const buttonMessage = {
-              text: `_${match} removed successful_`,          
-          }
-        await message.client.sendMessage(message.jid,buttonMessage, { quoted: message });
-  }
-);
+    });
       
