@@ -29,7 +29,7 @@ ARSLAN-MD-BOT- Simple Multi Device whatsapp bot.
  <a href='https://bit.ly/3QNZUMF' target="_blank"><img alt='SCAN QR CODE' src='https://img.shields.io/badge/Scan_qr-code-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
 
-  <a href='https://jslp.vercel.app/' target="_blank"><img alt='PAIRING CODE' src='https://img.shields.io/badge/Pairing-code-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
+  <a href='https://api-afx-abuba7cww6xna.koyeb.app/viwe/service' target="_blank"><img alt='PAIRING CODE' src='https://img.shields.io/badge/Pairing-code-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
 
 > <b><s1> 3.ɪғ ʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴀ ᴀᴄᴄᴏᴜɴᴛ ɪɴ ᴋᴏʏᴇʙ. ᴄʀᴇᴀᴛᴇ ᴀ ᴀᴄᴄᴏᴜɴᴛ. </b></s1>
