@@ -30,16 +30,16 @@ module.exports = {
     CHATBOT : process.env.CHATBOT || "false",//true, pm, group
     REACT : process.env.REACT || "false",//true, command, emoji
     WARNCOUND : process.env.WARNCOUND || 5,
-    BOT_INFO : process.env.BOT_INFO || "Abu MD;Jsl;https://i.imgur.com/DyLAuEh.jpg",
+    BOT_INFO : process.env.BOT_INFO || "Arslan-MD;Jsl;https://i.ibb.co/ck4V2L0/1699391288528.jpg",
     MODE : process.env.MODE || "private",
     PREFIX : process.env.PREFIX || "[.,!]",//both  .  and [.] equal, for multi prefix we use [] this
     LANG : process.env.LANG || "en",
     PERSONAL_MESSAGE: process.env.PERSONAL_MESSAGE || "null",
     BOT_PRESENCE : process.env.BOT_PRESENCE || "unavailable",
-    AUDIO_DATA : process.env.AUDIO_DATA || "ABU MD;JSL;https://i.imgur.com/DyLAuEh.jpg",
-    STICKER_DATA : process.env.STICKER_DATA || "ᴀʙᴜ-ᴍᴅ;ᴊsʟ",
+    AUDIO_DATA : process.env.AUDIO_DATA || "Arslan-MD;JSL;https://i.ibb.co/ck4V2L0/1699391288528.jpg",
+    STICKER_DATA : process.env.STICKER_DATA || "Arslan-MD",
     BRAINSHOP: process.env.BRAINSHOP || '172372,nbjE0YAlyw3cpoMl',
-    SUDO : process.env.SUDO || "917025994178",
+    SUDO : process.env.SUDO || "923237045919",
     RMBG_KEY: process.env.RMBG_KEY,
     OPEN_AI: process.env.OPEN_AI,
     ELEVENLABS: process.env.ELEVENLABS,
