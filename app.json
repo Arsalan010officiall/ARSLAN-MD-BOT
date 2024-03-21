@@ -1,7 +1,7 @@
 {
   "name": "Deploy",
   "description": "whatsapp md bot build with nodejs",
-  "repository": "https://github.com/Afx-Abu/Abu-MD",
+  "repository": "https://github.com/Arsalan010officiall/ARSLAN-MD-BOT",
   "logo": "https://pbs.twimg.com/media/FO7fojOakAAyYgt?format=jpg&name=900x900",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
   "stack": "container",
@@ -29,7 +29,7 @@
     "BOT_INFO": {
       "description": "baasic bot configration",
       "required": true,
-      "value": "Afx-Abu;Abu-MD;https://i.imgur.com/DyLAuEh.jpg"
+      "value": "Arslan-MD;https://i.ibb.co/ck4V2L0/1699391288528.jpg"
     },
     "PREFIX": {
       "description": "bot preifx  ., [.,!], false",
@@ -39,12 +39,12 @@
     "AUDIO_DATA": {
       "description": "audio metadata",
       "required": true,
-      "value": "Abu-MD;~Jasil;https://i.imgur.com/DyLAuEh.jpg"
+      "value": "Arslan-MD;~Jasil;https://i.ibb.co/ck4V2L0/1699391288528.jpg"
     },
     "STICKER_DATA": {
       "description": "sticker data",
       "required": true,
-      "value": "Jsl;Abu-MD"
+      "value": "Arslan-MD"
     },
     "PERSONAL_MESSAGE": {
       "description": "personal greetings for first message ",
