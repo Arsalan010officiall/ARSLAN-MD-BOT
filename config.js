@@ -11,7 +11,7 @@ module.exports = {
     APP_NAME: process.env.HEROKU_APP_NAME },
     PORT: process.env.PORT || 3000,
     BASE_URL : "https://upper-romy-inrl-bot.koyeb.app/",
-    REPO: "Afx-Abu/Abu-MD",
+    REPO: "Arsalan010officiall/ARSLAN-MD-BOT",
     BGM_URL : process.env.BGM_URL || "null",
     REJECT_CALL : toBool(process.env.REJECT_CALL || 'false'),
     BADWORD_BLOCK : toBool(process.env.BADWORD_BLOCK || 'false'),
