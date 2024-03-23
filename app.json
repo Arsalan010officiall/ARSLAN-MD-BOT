@@ -49,7 +49,7 @@
     "PERSONAL_MESSAGE": {
       "description": "personal greetings for first message ",
       "required": true,
-      "value": "this is a bot, owner is bussy with something"
+      "value": "I am Arslan-MD bot, My owner is bussy with something "
     },
     "REJECT_CALL": {
       "description": "automatic reject call",
